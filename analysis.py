@@ -21,6 +21,7 @@ plt.figure(figsize=(8,5))
 plt.plot(df["Quarter"], df["RetentionRate"], marker="o", label="Company Retention Rate")
 plt.axhline(industry_target, color="red", linestyle="--", label=f"Industry Target ({industry_target})")
 
+#Visualisation
 plt.title("Customer Retention Rate - 2024")
 plt.xlabel("Quarter")
 plt.ylabel("Retention Rate (%)")
